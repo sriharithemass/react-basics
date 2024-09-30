@@ -1,0 +1,18 @@
+.btn{
+    color: var(--react-color);
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    backface-visibility: hidden;
+}
+
+.btn:hover{
+    filter: drop-shadow(0 0 1px var(--react-color));
+}
+
+.active{
+    background-color: var(--react-color);
+    color: var(--react-background);
+}

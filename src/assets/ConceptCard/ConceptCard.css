@@ -1,0 +1,23 @@
+.card{
+    background-color: var(--react-background);
+    color: var(--react-color);
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    min-width: 100px;
+    max-width: 300px;
+    max-height: 1000px;
+    min-height: 400px;
+}
+
+.card h3{
+    width: max-content;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.card p{
+    margin-top: 10px;
+    text-align: justify;
+    line-height: 25px;
+}
